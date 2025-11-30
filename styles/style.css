@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.services-section {
+    width: 90%;
+    margin: 60px auto;
+}
+
+.services-section h3 {
+    color: gray;
+}
+
+.services-section h2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.services-section p {
+    width: 50%;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+}
+
+.card h4 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+}
